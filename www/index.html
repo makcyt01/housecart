@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <title>Housecart</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./css/style.css">
         
     </head>
@@ -12,21 +14,31 @@
         <div class="wrapper">
 
             <!-- header container -->
-            <header class="header grid-item">
-                <a href="#" class="header-logo">
-                    <img src="img/logo.png" alt="">
-                </a>
-                <nav>
-                    <a href="#">Home</a>
-                    <a href="#">About Us</a>
-                    <a href="#">How it works</a>
-                    <a href="#">Contact Us</a>
-                </nav>
+            <header class="header-container grid-item">
+                <div class="header-inner">
+                    <a href="#" class="header-logo">
+                        <img src="img/logo.png" alt="">
+                    </a>
+                    <nav class="header-nav">
+                        <a class="header-nav-link" href="#">Home</a>
+                        <a class="header-nav-link" href="#">About Us</a>
+                        <a class="header-nav-link" href="#">How it works</a>
+                        <a class="header-nav-link" href="#">Contact Us</a>
+                    </nav>
+                </div>
             </header>
 
             <!-- Get offer container -->
-            <div class="get-offer grid-item">
-            
+            <div class="offer grid-item">
+                <div class="offer-form">
+                    <h1 class="offer-form-title">Sell Your House Instantly</h1>
+                    <p class="offer-form-description">
+                        Simply tell us about your house and get a guaranteed
+                        cash offer within 24 hours
+                    </p>
+                </div>
+                <img class="offer__img--left" src="img/house-1.png" alt="">
+                <img class="offer__img--right" src="img/house-2.png" alt="">
             </div>
 
             <!-- Features container -->
